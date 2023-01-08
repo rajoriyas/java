@@ -1,0 +1,21 @@
+1. mysql -u root -p;
+2. password 
+		root
+
+3. show databases;
+4. create database 'name';
+5. use 'name';
+
+6. show tables;
+6.1. select * from tables;
+
+7. insert into stdata values(id, col1, co2,........);
+
+8. Update stdata set firstname='rajoriyarahuls' where id=1
+
+9. create table 'name' (
+	'NAME' int auto_increment primary key,
+	'NAME' char(20) not null,
+	);
+10. exit
+	

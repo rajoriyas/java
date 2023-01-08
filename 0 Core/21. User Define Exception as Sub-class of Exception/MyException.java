@@ -1,0 +1,20 @@
+class MyException {
+	public static void main(String args[]) {
+		int a,b,c;
+		try {
+			System.out.println("A");
+			a=Integer.parseInt(args[0]);
+			System.out.println("B");
+			b=Integer.parseInt(args[1]);
+			c=a/b;
+			System.out.println("C"+c);
+		}
+		catch(Exception exp) {
+			System.out.println("Some Excption found!");
+		}
+		finally {
+			System.out.println("Finally exception generated.");
+		}
+	}
+}
+			

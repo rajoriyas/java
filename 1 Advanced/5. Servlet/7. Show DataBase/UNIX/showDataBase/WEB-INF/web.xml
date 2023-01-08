@@ -1,0 +1,10 @@
+<web-app>
+	<servlet>
+		<servlet-name>show</servlet-name>
+		<servlet-class>ProgShowDataBase</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>show</servlet-name>
+		<url-pattern>/show</url-pattern>
+	</servlet-mapping>
+</web-app>	

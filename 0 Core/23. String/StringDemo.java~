@@ -1,0 +1,37 @@
+import java.util.Scanner;
+class StringDemo {
+	public static void main(String args[]) {
+		Scanner input = new Scanner(System.in);	
+		String str1 = input.nextLine();
+		//using cmd args to take i/0
+		System.out.println(args[0]+str1);
+
+		String str2 = args[0];
+		Oprators obj = new Oprators(str3, str1);
+		obj.compare();
+	}
+}
+class Oprators {
+	String str1,str2;
+	Oprators(String str1, String str2) {
+		this.str1=str1;
+		this.str2=str2;
+	}
+
+	//making string from character
+	char ch[] = {'r','a','h','u','l',' ','r','a','j','o','r','i','y','a'};
+	String str3 = new String(ch);
+
+	//concatenate string
+	String str4 = str1+str2;	//'+=' also use to concatenate
+
+	void compare() {
+		//returns true and false not -1 , 0 or 1
+		if(str3 == str4) {	
+			System.out.println("Both are same.");
+		}
+ 		else {	
+			System.out.println("Different");
+		}
+	} 
+}																														

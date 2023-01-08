@@ -1,0 +1,2 @@
+copy this directory and then complie it as
+	javac -cp /home/rajoriyas/web/apache-tomcat-9.0.10/lib/servlet-api.jar /home/rajoriyas/web/apache-tomcat-9.0.10/webapps/MyFirstPage/WEB-INF/classes/ProgMyFirstPage.java
